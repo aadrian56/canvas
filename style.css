@@ -1,0 +1,20 @@
+/* Reset de márgenes y padding del navegador */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor flexible para centrar el contenido */
+.main-container {
+    background-color: #2c3e50; /* Color de fondo oscuro */
+    height: 100vh; /* 100% de la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo del lienzo de dibujo */
+#main-canvas {
+    background-color: white; /* Fondo blanco para la pizarra */
+    cursor: crosshair; /* Cambia el cursor al pasar sobre el canvas */
+}
